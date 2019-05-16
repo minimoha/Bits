@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #f3f3f3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.foot {
+	margin-bottom: 5px;
+ 	background-color: #333;
+ 	height: 50px;
+ 	padding: 10px 20px;
+}
+
+.topnav a {
+	margin-left: 200px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ddd;
+  color: black;
+}
+input.sub {
+	margin-left: 1020px;
+	height: 30px;
+	border-radius: 3px;
+}
+input.search {
+	float: right;
+	border-radius: 3px;
+	margin-right: 10px;
+	margin-top: 5px;
+	width: 170px;
+	height: 35px;
+
+}
+/* {
+	outline: 1px solid red !important;
+}*/	
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+.prod {
+	justify-content: center;
+}
+button {
+	float: right;
+    margin-right: 20px;
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    color: #eaeaf3;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3c9393;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+    color: blue;
+}
+strong, del {
+	font-size: 14px;
+}
+/*#container {
+    position: fixed;
+	background-color: blue;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 70px;
+}
+#lower {
+    background: #ecf2f5;
+    width: 100%;
+    height: 69px;
+    border-top: 1px solid #ccc;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+}*/
+img {
+	width: 100%;
+	height: 60%;
+	padding: 10px 10px 0 10px;
+}
+div.col-2 > p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: justify-all;
+	padding: 0 0 0 10px;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: justify-all;
+	padding: 0 0 0 10px;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+	background-color: white;
+	height: 400px;
+	margin-right: 3%;
+}
+.col-3 {
+	width: 25%;
+	background-color: white;
+	height: 350px;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
